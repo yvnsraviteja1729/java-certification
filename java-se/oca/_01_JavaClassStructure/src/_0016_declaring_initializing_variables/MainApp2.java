@@ -46,9 +46,9 @@ public class MainApp2 {
 		System.out.println(i3); // Initialize variable
 		
 	
-    	int i4; i5; // DOES NOT COMPILE
-    	
-		double d1, double d2;  // DOES NOT COMPILE
+//    	int i4; i5; // DOES NOT COMPILE
+//
+//		double d1, double d2;  // DOES NOT COMPILE
 
 	}
 }

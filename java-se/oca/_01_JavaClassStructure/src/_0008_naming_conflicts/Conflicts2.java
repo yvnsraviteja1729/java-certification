@@ -24,4 +24,7 @@ public class Conflicts2 {
 	//If You Really Need to Use Two Classes with the Same Name
 	
 	// some more code
+	public static void main(String[] args) {
+		System.out.println("hello");
+	}
 }

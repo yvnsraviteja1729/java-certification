@@ -5,6 +5,7 @@ public class MainApp {
 	public static void main(String[] args) {
 		
 		ShippableRobotCrate obj = new ShippableRobotCrate();
+//		Shippable<Robot> obj=new ShippableRobotCrate();
 		obj.ship(new Robot("Lolo", 1234));
 	}
 }

@@ -16,7 +16,7 @@ public class MainApp {
 		System.out.println(numbers); // [1]
 		System.out.println(numbers.get(0)); // 1
 
-		numbers.add(new Integer(3));
+		numbers.add(3);
 		System.out.println(numbers); // [1, 3]
 		System.out.println(numbers.get(0) + ", " + numbers.get(1)); // 1, 3
 
@@ -34,10 +34,10 @@ public class MainApp {
 		numbers.remove(1);  // index [1] -->   3       
 		System.out.println(numbers); //   [1,      5]
 
-		numbers.remove(new Integer(44));
+		numbers.remove(Integer.valueOf(44));
 		System.out.println(numbers); // [1, 5]
 		
-		numbers.remove(new Integer(5));
+		numbers.remove(Integer.valueOf(5));
 		System.out.println(numbers); // [1]
 		
 		//  wrapper classes to primitives via unboxing
