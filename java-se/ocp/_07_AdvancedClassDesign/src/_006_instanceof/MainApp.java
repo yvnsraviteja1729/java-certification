@@ -27,6 +27,6 @@ public class MainApp {
 		System.out.println(b5); // false
 		
 		Hippo anotherHippo = new Hippo();
-		boolean b6 = anotherHippo instanceof Elephant; // DOES NOT COMPILE
+		// boolean b6 = anotherHippo instanceof Elephant; // DOES NOT COMPILE
 	}
 }
