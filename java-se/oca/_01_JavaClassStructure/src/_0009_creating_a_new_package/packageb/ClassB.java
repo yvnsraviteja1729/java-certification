@@ -7,6 +7,6 @@ public class ClassB {
 		
 		ClassA aObj = new ClassA();
 		System.out.println("Class A object:" + aObj);
-		
+		System.out.println("Finished executing");
 	}
 }
