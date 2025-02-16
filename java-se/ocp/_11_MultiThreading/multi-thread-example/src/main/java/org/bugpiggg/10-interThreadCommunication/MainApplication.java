@@ -1,16 +1,6 @@
-/*
- * Copyright (c) 2019-2023. Michael Pogrebinsky - Top Developer Academy
- * https://topdeveloperacademy.com
- * All rights reserved
- */
 
 import java.io.*;
 import java.util.*;
-
-/**
- * Objects as Condition Variables - Wait(), Notify() and NotifyAll()
- * https://www.udemy.com/java-multithreading-concurrency-performance-optimization
- */
 public class MainApplication {
     private static final String INPUT_FILE = "./out/matrices";
     private static final String OUTPUT_FILE = "./out/matrices_results.txt";

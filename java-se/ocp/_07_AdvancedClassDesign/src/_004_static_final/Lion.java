@@ -10,13 +10,14 @@ public class Lion extends Cat {
 		System.out.println("subclass clean2");
 	}
 	
-	void clean3() {
-		System.out.println("subclass clean3");
-	}
+	// Uncommenting below lines will cause compilation erroe as they are overriding final methods
+	// void clean3() {
+	// 	System.out.println("subclass clean3");
+	// }
 	
-	void clean4() {
-		System.out.println("subclass clean4");
-	}
+	// void clean4() {
+	// 	System.out.println("subclass clean4");
+	// }
 
 	public static void main(String[] args) {
 		Lion lion = new Lion();
